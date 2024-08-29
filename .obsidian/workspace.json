@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "ae2e7a94e43f1a57",
+    "type": "split",
+    "children": [
+      {
+        "id": "be42845964601c7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48356ca33b47f6a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0010/0010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8dc221e305cb4db1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9ee1aca8860e705",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b29d83a1d943a428",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a668a8098e72f35",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3954d4b4e5f959c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a959cbdbd498e480",
+    "type": "split",
+    "children": [
+      {
+        "id": "976a54660eb90393",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3082c9f89e6c005",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0010/0010.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f624ee01a52a6109",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0010/0010.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfe8e9f5e9696d14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb441c0e5032038a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0010/0010.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "48356ca33b47f6a7",
+  "lastOpenFiles": [
+    "0010/PsyClass1.pdf",
+    "0010/0010.md",
+    "0441/0441.md",
+    "0441/Syllabus0441.pdf",
+    "0449/0449.md",
+    "Welcome.md",
+    "0449.md",
+    "0449",
+    "untitled folder",
+    "1630/1630.md",
+    "0441.md",
+    "0010.md",
+    "1630/1630Syllabus.pdf",
+    "0010/PsychSyllabus.pdf",
+    "1630",
+    "0441",
+    "0010",
+    "1630.md"
+  ]
+}
