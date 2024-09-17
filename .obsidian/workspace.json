@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0010/0010.md",
+                "file": "0441/0441-hw02.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0010/0010.md",
+                "file": "0441/0441-hw02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0010/0010.md",
+                "file": "0441/0441-hw02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0010/0010.md"
+                "file": "0441/0441-hw02.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "48356ca33b47f6a7",
   "lastOpenFiles": [
-    "0010/PsyClass1.pdf",
+    "1630/reading-09-16.pdf",
+    "0441/0441-hw02.pdf",
+    "0441/0441-hw02.md",
     "0010/0010.md",
+    "0010/PsyClass1.pdf",
     "0441/0441.md",
     "0441/Syllabus0441.pdf",
     "0449/0449.md",
