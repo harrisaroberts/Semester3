@@ -7,10 +7,10 @@
 2. Ice cream sales can be measured by tracking an ice cream shops sales 
 
 ## Objective vs Subjective
-1. Measuring outside temperatre is objective because using a thermometer gives
-an exact and consitent measurment.
+1. Measuring outside temperature is objective because using a thermometer gives
+an exact and consistent measurement.
 2. Measuring ice cream sales is also objective, again giving an exact and
-consitent measurment.
+consistent measurement.
 
 ## Positive vs Negative Correlation
 I think that these two variables would have a positive correlation because if the
