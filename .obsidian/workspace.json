@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "b59f358c6c19f137",
+    "type": "split",
+    "children": [
+      {
+        "id": "5613d92a2b68da0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaa588db134069ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0441/hw05.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8906c8e5ac6f60d",
+    "type": "split",
+    "children": [
+      {
+        "id": "06ab8c7cfdf3d904",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa555321cac329d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "78b6f381a781ada8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b73287235ca77b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c577c270bfae389",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd9599d6f257d9e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a9e5c67cf231d2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0441/hw05.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5568ea32a48b0c56",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0441/hw05.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93aaaa69681d62b6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "836674de79fb1a5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0441/hw05.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aaa588db134069ad",
+  "lastOpenFiles": [
+    "0441/hw04.md",
+    "0441/hw04.pdf",
+    "0441/rec04.md",
+    "0441/rec04.pdf",
+    "0441/hw03.md",
+    "0441/hw03.pdf",
+    "0441/hw03.md~",
+    "0010/exam1-prep.md",
+    "0441/laTeX/hw_03.synctex(busy)",
+    "0441/laTeX/pdflatex24878.fls",
+    "0441/laTeX/pdflatex24303.fls",
+    "0441/laTeX/pdflatex24283.fls",
+    "0441/laTeX/pdflatex24267.fls",
+    "0441/laTeX/pdflatex24220.fls",
+    "0010/0010.md",
+    "0441/rec_03.md"
+  ]
+}
