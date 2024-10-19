@@ -131,7 +131,7 @@ void printBMPInfo(const BMPImage *image) {
 
 BMPImage* revealHiddenImage(BMPImage *image) {
     for(int row = 0; row < image->dibHeader.height; row++) {
-        for(int col = 9; col < image->dibHeader.width; col++) {
+        for(int col = 0; col < image->dibHeader.width; col++) {
             Pixel *pixel = &image->pixels[row * image->dibHeader.width + col];
             pixel->red = ((pixel->red & 0xF0) >> 4) | ((pixel->red & 0x0F) << 4);
             pixel->green = ((pixel->green &0xF0) >> 4) | ((pixel->green & 0x0F) << 4);
@@ -163,6 +163,23 @@ void writeBMPImage(const char *filename, BMPImage *image) {
     }
 }
 
+BMPImage* hideBMPImage(BMPImage *image, BMPImage *imageToHide) {
+    if(image->dibHeader.width != imageToHide->dibHeader.width || image->dibHeader.height != imageToHide->dibHeader.height) { 
+        printf("Error: Images must have the same dimension");
+        return NULL;
+    }
+    for(int row = 0; row < image->dibHeader.height; row++){
+        for(int col = 0; col < image->dibHeader.width; col++){
+            Pixel *pixel = &image->pixels[row * image->dibHeader.width + col];
+            Pixel *hiddenPixel = &imageToHide->pixels[row * imageToHide->dibHeader.width + col];
+            pixel->red = (pixel->red & 0xF0) | ((hiddenPixel->red & 0xF0) >> 4);
+            pixel->green = (pixel->green & 0xF0) | ((hiddenPixel->green & 0xF0) >> 4);
+            pixel->blue = (pixel->blue & 0xF0) | ((hiddenPixel->blue & 0xF0) >> 4);
+        }
+    }
+    return image;
+}
+
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         printf("Error: Missing Arguments.\n");
@@ -180,6 +197,20 @@ int main(int argc, char *argv[]) {
             image = revealHiddenImage(image);
             writeBMPImage(argv[2], image);
             freeBMPImage(image);
+        }
+    } else if (strcmp(argv[1], "--hide") == 0) {
+        if (argc < 4) {
+            printf("Error: Missing Arguments");
+            return 1;
+        }
+        BMPImage *image = readAndValidateBMP(argv[2]);
+        BMPImage *imageToHide = readAndValidateBMP(argv[3]);
+
+        if (image != NULL && imageToHide != NULL) {
+            image = hideBMPImage(image, imageToHide);
+            writeBMPImage(argv[2], image);
+            freeBMPImage(image);
+            freeBMPImage(imageToHide);
         }
     }
     return 0;
